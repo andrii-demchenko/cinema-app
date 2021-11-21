@@ -5,10 +5,9 @@ import cinema.spring.model.RoleName;
 import cinema.spring.model.User;
 import cinema.spring.service.RoleService;
 import cinema.spring.service.UserService;
-import org.springframework.stereotype.Component;
-
-import javax.annotation.PostConstruct;
 import java.util.Set;
+import javax.annotation.PostConstruct;
+import org.springframework.stereotype.Component;
 
 @Component
 public class DataInitializer {

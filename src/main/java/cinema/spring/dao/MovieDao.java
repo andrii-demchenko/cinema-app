@@ -1,8 +1,8 @@
 package cinema.spring.dao;
 
+import cinema.spring.model.Movie;
 import java.util.List;
 import java.util.Optional;
-import cinema.spring.model.Movie;
 
 public interface MovieDao {
     Movie add(Movie movie);

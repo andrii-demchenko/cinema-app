@@ -3,7 +3,6 @@ package cinema.spring.dao.impl;
 import cinema.spring.dao.AbstractDao;
 import cinema.spring.dao.ShoppingCartDao;
 import cinema.spring.exception.DataProcessingException;
-import cinema.spring.exception.DataProcessingException;
 import cinema.spring.model.ShoppingCart;
 import cinema.spring.model.User;
 import org.hibernate.Session;

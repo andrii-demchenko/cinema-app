@@ -6,10 +6,9 @@ import cinema.spring.model.MovieSession;
 import cinema.spring.service.CinemaHallService;
 import cinema.spring.service.MovieService;
 import cinema.spring.util.DateTimePatternUtil;
-import org.springframework.stereotype.Component;
-
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import org.springframework.stereotype.Component;
 
 @Component
 public class MovieSessionMapper implements RequestDtoMapper<MovieSessionRequestDto, MovieSession>,

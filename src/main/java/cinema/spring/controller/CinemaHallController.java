@@ -1,14 +1,18 @@
 package cinema.spring.controller;
 
-import javax.validation.Valid;
-import java.util.List;
-import java.util.stream.Collectors;
 import cinema.spring.dto.request.CinemaHallRequestDto;
 import cinema.spring.dto.response.CinemaHallResponseDto;
 import cinema.spring.model.CinemaHall;
 import cinema.spring.service.CinemaHallService;
 import cinema.spring.service.mapper.CinemaHallMapper;
-import org.springframework.web.bind.annotation.*;
+import java.util.List;
+import java.util.stream.Collectors;
+import javax.validation.Valid;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/cinema-halls")

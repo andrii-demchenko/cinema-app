@@ -4,9 +4,8 @@ import cinema.spring.dao.CinemaHallDao;
 import cinema.spring.exception.DataProcessingException;
 import cinema.spring.model.CinemaHall;
 import cinema.spring.service.CinemaHallService;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
+import org.springframework.stereotype.Service;
 
 @Service
 public class CinemaHallServiceImpl implements CinemaHallService {

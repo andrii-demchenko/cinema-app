@@ -1,7 +1,6 @@
 package cinema.spring.dao;
 
 import cinema.spring.model.CinemaHall;
-
 import java.util.List;
 import java.util.Optional;
 

@@ -4,10 +4,9 @@ import cinema.spring.dto.response.OrderResponseDto;
 import cinema.spring.model.Order;
 import cinema.spring.model.Ticket;
 import cinema.spring.util.DateTimePatternUtil;
-import org.springframework.stereotype.Component;
-
 import java.time.format.DateTimeFormatter;
 import java.util.stream.Collectors;
+import org.springframework.stereotype.Component;
 
 @Component
 public class OrderMapper implements ResponseDtoMapper<OrderResponseDto, Order> {

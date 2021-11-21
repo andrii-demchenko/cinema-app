@@ -1,7 +1,5 @@
 package cinema.spring.controller;
 
-import java.util.List;
-import java.util.stream.Collectors;
 import cinema.spring.dto.response.OrderResponseDto;
 import cinema.spring.exception.DataProcessingException;
 import cinema.spring.model.ShoppingCart;
@@ -10,6 +8,8 @@ import cinema.spring.service.OrderService;
 import cinema.spring.service.ShoppingCartService;
 import cinema.spring.service.UserService;
 import cinema.spring.service.mapper.OrderMapper;
+import java.util.List;
+import java.util.stream.Collectors;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -2,7 +2,6 @@ package cinema.spring.dto.request;
 
 import cinema.spring.lib.FieldsValueMatch;
 import cinema.spring.lib.ValidEmail;
-
 import javax.validation.constraints.Size;
 
 @FieldsValueMatch(

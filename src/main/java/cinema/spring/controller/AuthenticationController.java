@@ -5,11 +5,10 @@ import cinema.spring.dto.response.UserResponseDto;
 import cinema.spring.model.User;
 import cinema.spring.service.AuthenticationService;
 import cinema.spring.service.mapper.UserMapper;
+import javax.validation.Valid;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.validation.Valid;
 
 @RestController
 public class AuthenticationController {
