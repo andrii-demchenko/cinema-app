@@ -1,7 +1,7 @@
 # 🎥 About cinema-app
-This project is a basic implementation of a cinema application, which is based on Spring, Hibernate, database usage and REST principles. Data is displayed to user in JSON format.
+This project is a basic implementation of a cinema ticket online shop application, which is based on Spring, Hibernate, database usage and REST principles. Data is displayed to user in JSON format.
 # 🎯 Goal
-The aim of the project is to show skills in creating Java-applications with combined usage of Spring and Hibernate.
+The aim of the project is to show possibilities in creating Java-applications with combined usage of Spring and Hibernate and to simulate simple online-shop functionality.
 # 🎦 Cinema-app features
 Cinema app uses database to store information about users, tickets and movie sessions. It also has basic authentication and authorization features with two roles - admin and user.   
 Every user has a shopping cart and orders.  
@@ -30,11 +30,12 @@ PUT: /shopping-carts/movie-sessions - user
 GET: /shopping-carts/by-user - user  
 GET: /users/by-email - admin  
   
-POST example:
+POST request example using Postman:
 ```
 http://localhost:8080/movies - URL
 {"title":"testMovie", "description":"test description"} - body;
 ```
+You will also need to specify basic authentication login and password for currently logged-in user in authorization parameters.
 # 🛠️ Technologies stack
 - Java 11
 - Hibernate
@@ -45,7 +46,7 @@ http://localhost:8080/movies - URL
 # 🧰 Installation and running
 To run this project you will need to do these steps:
 1. Install [MySQL](https://dev.mysql.com/downloads/) and [Apache Tomcat 9.0.54](https://tomcat.apache.org/download-90.cgi).
-2. Create empty database
+2. Create empty database.
 3. Clone this project.
 4. Edit database connection information(URL, username, password) in ```db.properties``` in ```resources``` folder:
 ``` java
