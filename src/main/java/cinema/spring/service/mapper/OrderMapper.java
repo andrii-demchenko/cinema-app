@@ -3,7 +3,7 @@ package cinema.spring.service.mapper;
 import cinema.spring.dto.response.OrderResponseDto;
 import cinema.spring.model.Order;
 import cinema.spring.model.Ticket;
-import cinema.spring.util.DateTimePatternUtil;
+import cinema.spring.model.constants.DateTimePatternUtil;
 import java.time.format.DateTimeFormatter;
 import java.util.stream.Collectors;
 import org.springframework.stereotype.Component;
